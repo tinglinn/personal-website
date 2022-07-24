@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@900&family=Roboto+Mono:wght@300;400&display=swap');
+html {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+@import url('https://css.gg/mail.css');
+ .gg-mail,
+ .gg-mail::after {
+     display: block;
+     box-sizing: border-box;
+     height: 14px;
+     border: 2px solid
+ }
+
+ .gg-mail {
+     overflow: hidden;
+     transform: scale(var(--ggs, 1));
+     position: relative;
+     width: 18px;
+     border-radius: 2px
+ }
+
+ .gg-mail::after {
+     content: "";
+     position: absolute;
+     border-radius: 3px;
+     width: 14px;
+     transform: rotate(-45deg);
+     bottom: 3px;
+     left: 0
+ }
+
+/* -- header -- */
+.header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    background-color: white;
+    height: 55px;
+    justify-content: space-between;
+}
+
+.sidebar {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 18%;
+    height: 100vh;
+    z-index: 1;
+    background-color: antiquewhite;
+    overflow-x: hidden;
+    padding: 0 0;
+    display: grid;
+    font-size: 0.65em;
+    align-items: center;
+}
+
+.nav {
+    position: relative;
+    margin: 0 15%;
+    text-align: right;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+
+.nav ul{
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: #b1113fe3;
+    text-decoration: none; 
+}
+
+.nav ul li{
+    position: relative;
+    margin: 3.2em 0;
+    display: block;
+}
+
+.nav a:hover {
+    color:#f57373;
+}
+
+.main {
+    margin-left: 22%;
+    margin-right: 18%;
+    /* Same width as the sidebar + left position in px */
+    padding: 0px 10px;
+}
+
+h1 {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 96px;
+    color: black;
+}
+
+h2,h3 {
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    color: black;
+    font-weight: 80;
+    display: block;
+}
+
+a:link,a:visited {
+    color: #b1113fe3;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+a:hover,a:active {
+    color: #f57373;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+
+
