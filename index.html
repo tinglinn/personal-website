@@ -7,17 +7,39 @@
   </head>
 
   <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-  
+  <script>function myFunction() {
+      var x = document.getElementById("dropdown_links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
   <body>
     <!-- Side Navigation -->
     <aside class="sidebar">
       <nav class="nav">
         <ul>
-          <li><a href="about_page.html">About</a></li>
+          <li><a href="index.html">About</a></li>
           <li><a href="selected_writing.html">Selected Writing</a></li>
         </ul>
     </nav>
     </aside>
+
+    <!-- Drop Down Menu for Mobile -->
+    <div class="topbar">
+      <div class="icon" onclick="myFunction()">
+        <ion-icon name="menu"></ion-icon>
+      </div>
+      <nav class="nav" id="dropdown_links">
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="selected_writing.html">Selected Writing</a></li>
+        </ul>
+      </nav>
+    </div>
 
     <!-- Main -->
     <div class="main">
@@ -43,6 +65,9 @@
             </a>
             <a href="https://github.com/tinglinn">
               <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/ting-lin-183b2a205/">
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </p>
     </div>
