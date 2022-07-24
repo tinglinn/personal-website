@@ -144,9 +144,8 @@ a:hover,a:active {
     left: 0;
     right: 0;
     background-color: #fbd2dd;
-    padding-left: 25%;
-    padding-right: 25%; 
-    text-align: left;
+    padding-right: 8%;
+    text-align: center;
 }
 
 .topbar nav {
@@ -158,6 +157,7 @@ a:hover,a:active {
     list-style: none;
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
+    font-weight: bold;
     color: #b1113fe3;
     text-decoration: none;
 }
