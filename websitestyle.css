@@ -95,6 +95,7 @@ body {
 }
 
 .main {
+    margin-top: 2%;
     margin-left: 22%;
     margin-right: 18%;
     /* Same width as the sidebar + left position in px */
@@ -209,6 +210,7 @@ a:hover,a:active {
 }
 @media (max-width: 780px) {	
     .main {
+        margin-top: 15%;
         margin-left: 10%;
         margin-right: 10%;
     }
