@@ -76,6 +76,7 @@ body {
 }
 
 .sidebar nav ul{
+    margin-top: 25%;
     list-style: none;
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
@@ -85,7 +86,7 @@ body {
 
 .sidebar nav ul li{
     position: relative;
-    margin: 3.2em 0;
+    margin: 1.5em 1em;
     display: block;
 }
 
@@ -102,7 +103,7 @@ body {
 
 h1 {
     font-family: 'Darker Grotesque', sans-serif;
-    font-size: 96px;
+    font-size: 92px;
     color: black;
 }
 
@@ -132,6 +133,9 @@ a:hover,a:active {
 }
 
 .topbar {
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -144,8 +148,8 @@ a:hover,a:active {
     left: 0;
     right: 0;
     background-color: #fbd2dd;
-    padding-right: 8%;
-    text-align: center;
+    padding-right: 18%;
+    text-align: left;
 }
 
 .topbar nav {
@@ -156,15 +160,22 @@ a:hover,a:active {
     display: block;
     list-style: none;
     font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     color: #b1113fe3;
     text-decoration: none;
 }
 
 .topbar nav ul li {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 0.8px #f57373;
+    display:inline-block;
+    padding-top: 0.8em;
+    padding-bottom: 0.5em;
+    width: 100%;
     position: relative;
-    display: block;
 }
 
 .topbar a:hover {
@@ -206,6 +217,9 @@ a:hover,a:active {
     }
     .topbar {
         display: block;
+    }
+    .h1 {
+        font-size: 76px;
     }
 }
     

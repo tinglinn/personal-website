@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>TING LIN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="websitestyle.css">
+</head>
+
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<script>function myFunction() {
+        var x = document.getElementById("dropdown_links");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+
+<body>
+    <!-- Side Navigation -->
+    <aside class="sidebar">
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="selected_writing.html">Writing</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Drop Down Menu for Mobile -->
+    <div class="topbar">
+        <div class="icon" onclick="myFunction()">
+            <ion-icon name="menu" size="large"></ion-icon>
+        </div>
+        <nav class="nav" id="dropdown_links">
+            <ul>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="selected_writing.html">WRITING</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main -->
+    <div class="main" style="margin-top:2%">
+        <h2>Projects</h2>
+        <p>Site under construction!
+        </p>
+    </div>
+
+</body>
