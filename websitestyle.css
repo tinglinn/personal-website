@@ -137,7 +137,7 @@ a:hover,a:active {
     left: 0;
     right: 0;
     width: 100%;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     background-color: #fbd2dd;
 }
@@ -218,8 +218,8 @@ a:hover,a:active {
     .topbar {
         display: block;
     }
-    .h1 {
-        font-size: 76px;
+    h1 {
+        font-size: 68px;
     }
 }
     
